@@ -107,7 +107,7 @@ const Footer = () => {
       <StyledCredit tabindex="-1">
         <a href="https://github.com/bchiang7/v4">
           <div>Developed &amp; Built by Brittany Chiang 🫡</div>
-          {githubInfo.stars && githubInfo.forks && (
+          {/* {githubInfo.stars && githubInfo.forks && (
             <div className="github-stats">
               <span>
                 <Icon name="Star" />
@@ -118,7 +118,7 @@ const Footer = () => {
                 <span>{githubInfo.forks.toLocaleString()}</span>
               </span>
             </div>
-          )}
+          )} */}
         </a>
       </StyledCredit>
 
@@ -126,7 +126,7 @@ const Footer = () => {
       <StyledCredit>
         <a href="https://github.com/priscilla100/priscilla100.github.io">
           <div>Designed by Priscilla Danso 🙌🏾</div>
-          {githubInfo.stars && githubInfo.forks && (
+          {/* {githubInfo.stars && githubInfo.forks && (
             <div className="github-stats">
               <span>
                 <Icon name="Star" />
@@ -137,7 +137,7 @@ const Footer = () => {
                 <span>{githubInfo.forks.toLocaleString()}</span>
               </span>
             </div>
-          )}
+          )} */}
         </a>
       </StyledCredit>
     </StyledFooter>
